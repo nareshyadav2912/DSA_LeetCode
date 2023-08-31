@@ -6,7 +6,7 @@ class Solution {
         while(st.hasMoreTokens()){
             stack.push(st.nextToken());
         }
-        System.out.println(stack);
+        //System.out.println(stack);
         String res="";
         while(!stack.empty()){
             if(stack.size()==1) res+=stack.pop();
